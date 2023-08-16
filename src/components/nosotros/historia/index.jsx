@@ -1,8 +1,9 @@
-import React from "react"
-import Title from "../../title"
-import styled from "styled-components"
-import img from "../../../assets/images/historia.jpg"
-import { AiOutlineRight } from "react-icons/ai"
+import React from "react";
+import Title from "../../title";
+import styled from "styled-components";
+import img from "../../../assets/images/grua.webp";
+// import img from "../../../assets/images/historia.jpg";
+import { AiOutlineRight } from "react-icons/ai";
 const Wrapper = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -11,10 +12,10 @@ const Wrapper = styled.div`
   @media (max-width: 800px) {
     grid-template-columns: 1fr;
   }
-`
-const Info = styled.div``
-const Text = styled.p``
-const List = styled.ul``
+`;
+const Info = styled.div``;
+const Text = styled.p``;
+const List = styled.ul``;
 const Item = styled.li`
   list-style: none;
   margin-bottom: 0.5rem;
@@ -27,11 +28,11 @@ const Item = styled.li`
     font-weight: bold;
     margin-right: 0.5rem;
   }
-`
-const ImgWrapper = styled.div``
+`;
+const ImgWrapper = styled.div``;
 const Img = styled.img`
   width: 100%;
-`
+`;
 const Historia = () => {
   return (
     <div className="container wrapper">
@@ -43,37 +44,44 @@ const Historia = () => {
       <Wrapper>
         <Info>
           <Text></Text>
-          <p><b>ARQUITECTURA E INGENIERIA EN PROYECTOS SAC</b>, en adelante EPC INGENIERIA es una empresa peruana: </p>
+          <p>
+            <b>ARQUITECTURA E INGENIERIA EN PROYECTOS SAC</b>, en adelante EPC
+            INGENIERIA es una empresa peruana:{" "}
+          </p>
           <List>
             <Item>
               <AiOutlineRight
                 iOutlineRight
                 className="icon-right"
               ></AiOutlineRight>
-              En el 2016 iniciamos operaciones con diseño y fabricación e
+              En el 2016 iniciamos operaciones con diseño y fabricación de
               instalación de estructuras metálicas en el sector retail de la
-              ciudad Arequipa
+              ciudad Arequipa.
             </Item>
             <Item>
               <AiOutlineRight
                 iOutlineRight
                 className="icon-right"
               ></AiOutlineRight>
-               En el 2017 fue nuestro primer proyecto en el sector de energía, Proyecto Fotovoltaico Rubi de 140 MW, ubicada en Moquegua
+              En el 2017 fue nuestro primer proyecto en el sector de energía,
+              Proyecto Fotovoltaico Rubi de 140 MW, ubicada en Moquegua.
             </Item>
             <Item>
               <AiOutlineRight
                 iOutlineRight
                 className="icon-right"
               ></AiOutlineRight>
-               En el 2019 iniciamos operaciones en el sector minería e industria, participando en los proyectos de Marcobre en Ica, ampliación de Aceros Arequipa.
+              En el 2019 iniciamos operaciones en el sector minería e industria,
+              participando en los proyectos de Marcobre en Ica, ampliación de
+              Aceros Arequipa.
             </Item>
             <Item>
               <AiOutlineRight
                 iOutlineRight
                 className="icon-right"
               ></AiOutlineRight>
-              En 2020 iniciamos el Proyecto Quellaveco uno de los yacimientos de cobre más grandes del mundo
+              En 2020 iniciamos el Proyecto Quellaveco. Uno de los yacimientos
+              de cobre más grandes del mundo.
             </Item>
             {/* <Item>
               <AiOutlineRight
@@ -87,10 +95,35 @@ const Historia = () => {
                 iOutlineRight
                 className="icon-right"
               ></AiOutlineRight>
+              El 2021 es un año de gran satisfacción de ser proveedores de la
+              gran minería, siendo actualmente proveedor de Sociedad Minera
+              Cerro Verde.
+            </Item>
+            {/* <Item>
+              <AiOutlineRight
+                iOutlineRight
+                className="icon-right"
+              ></AiOutlineRight>
               Este año es una gran satisfacción de ser proveedores de la gran minería, siendo actualmente proveedor de Sociedad Minera Cerro Verde, Compañia Minera Antapaccay S.A., Las Bambas y Southern Perú,
               y también hemos sido certificados por la norma ISO 9001-2015 y Homologación de Proveedores por SGS.
+            </Item> */}
+            <Item>
+              <AiOutlineRight
+                iOutlineRight
+                className="icon-right"
+              ></AiOutlineRight>
+              El año 2022 iniciamos la construcción de la planta spñar
+              fotovoltaico Clemsi - Moquegua, de 122,59 MWp.
             </Item>
             <Item>
+              <AiOutlineRight
+                iOutlineRight
+                className="icon-right"
+              ></AiOutlineRight>
+              Actualmente estamos certificados por las normas ISO 9001, ISO 14001
+              e ISO 45001 y Homologación de Proveedores por SGS.
+            </Item>
+            {/* <Item>
               <AiOutlineRight
                 iOutlineRight
                 className="icon-right"
@@ -99,7 +132,7 @@ const Historia = () => {
               estructuras metálicas, reparación de componentes, servicios de
               soldadura especializada, outsourcing de procesos y servicios en
               los sectores de minería, industria, energías renovables y petróleo
-            </Item>
+            </Item> */}
           </List>
         </Info>
         <ImgWrapper>
@@ -107,7 +140,7 @@ const Historia = () => {
         </ImgWrapper>
       </Wrapper>
     </div>
-  )
-}
+  );
+};
 
-export default Historia
+export default Historia;

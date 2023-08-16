@@ -6,6 +6,7 @@ import img05 from "../assets/images/servicios/apoyo-tecnico.png"
 import img06 from "../assets/images/servicios/reunion.png"
 import img07 from "../assets/images/servicios/servicio1.png"
 import img08 from "../assets/images/servicios/servicio2.png"
+import img09 from "../assets/images/servicios/solar-panel-icon.png"
 import {RouteIngenieria} from './navigation'
 import {RouteLaboral} from './navigation'
 export default [
@@ -61,6 +62,12 @@ export default [
     text:
       `El mejor sistema de alineación de ejes acoplados en la actualidad es el basado en tecnologia óptica-láser, por ofrecer una gran superioridad técnica en todos los órdenes frente al tradicional mecánico de relojes comparadores.`,
     url: `${RouteLaboral}/servicio-de-alineamiento-de-laser-de-ejes`,
+  },
+  {
+    title: "CONSTRUCCIÓN DE PLANTAS FOTOVOLTAICAS",
+    img: img09,
+    text: `EPC ENERGIA, en su especialidad de servicios de energía solar y almacenamiento de energía, ayuda a sus clientes, especialmente a las empresas de Generación y Construcción (EPC), a garantizar la construcción, el mantenimiento y operación de su planta fotovoltaica cumpliendo con los más altos estándares de calidad.`,
+    url: `${RouteLaboral}/construccion-y-operacion-de-plantas-solares-fotovoltaicas`,
   },
   // {
   //   title: "GESTIÓN INTEGRAL DE CAMPAMENTOS",

@@ -1,20 +1,22 @@
-import { RouteIngenieria } from "./navigation"
-import { RouteLaboral } from "./navigation"
-import { RootProyecto } from "./navigation"
+import { RouteIngenieria } from "./navigation";
+import { RouteLaboral } from "./navigation";
+import { RootProyecto } from "./navigation";
 // import img01 from "../assets/images/Proyecto1.png"
-import img01 from "../assets/images/servicios/modelado-3d.png"
-import img02 from "../assets/images/servicios/torre-metalica-de-estructura-electrica.png"
-import img03 from "../assets/images/servicios/consejo.png"
-import img04 from "../assets/images/servicios/proceso.png"
-import img05 from "../assets/images/servicios/apoyo-tecnico.png"
-import img06 from "../assets/images/servicios/reunion.png"
-import img07 from "../assets/images/servicios/servicio2.png"
+import img01 from "../assets/images/servicios/modelado-3d.png";
+import img02 from "../assets/images/servicios/torre-metalica-de-estructura-electrica.png";
+import img03 from "../assets/images/servicios/consejo.png";
+import img04 from "../assets/images/servicios/proceso.png";
+import img05 from "../assets/images/servicios/apoyo-tecnico.png";
+import img06 from "../assets/images/servicios/reunion.png";
+import img07 from "../assets/images/servicios/servicio2.png";
+import img08 from "../assets/images/servicios/solar-panel-icon.png";
 export const dataIngenieria = [
   {
     title: "ENTRENAMIENTO Y CERTIFICACIÓN NDT (EQUIPOS Y PERSONAL)",
     img: img01,
-    text:"Ofrecemos el servicio de entrenamiento y certificación de personal nivel 1 y 2 a través del código ASNT-SNT-TC-1A.",
-    url:`${RouteLaboral}/entrenamiento-y-certificacion-ndt`
+    text:
+      "Ofrecemos el servicio de entrenamiento y certificación de personal nivel 1 y 2 a través del código ASNT-SNT-TC-1A.",
+    url: `${RouteLaboral}/entrenamiento-y-certificacion-ndt`,
   },
   {
     title: "DISEÑO E INGENIERÍA",
@@ -42,13 +44,14 @@ export const dataIngenieria = [
     text: `Somos especialistas en la fabricación de spools en el sur del país. Los materiales diversos en los que trabajar son de acero al carbono, acero inoxidable, cuproníquel y otras aleaciones.`,
     url: `${RouteIngenieria}/fabricacion-de-spools-y-piezas-especiales-para-tuberia`,
   },
-]
+];
 export const dataLaboral = [
   {
     title: "ENTRENAMIENTO Y CERTIFICACIÓN NDT (EQUIPOS Y PERSONAL)",
     img: img01,
-    text:"Ofrecemos el servicio de entrenamiento y certificación de personal nivel 1 y 2 a través del código ASNT-SNT-TC-1A.",
-    url:`${RouteLaboral}/entrenamiento-y-certificacion-ndt`
+    text:
+      "Ofrecemos el servicio de entrenamiento y certificación de personal nivel 1 y 2 a través del código ASNT-SNT-TC-1A.",
+    url: `${RouteLaboral}/entrenamiento-y-certificacion-ndt`,
   },
   {
     title: "SERVICIOS DE OUTSOURCING",
@@ -60,17 +63,21 @@ export const dataLaboral = [
   {
     title: "SERVICIOS DE ENSAYOS NO DESTRUCTIVOS",
     img: img06,
-    text:
-      `EPC INGENIERIA brinda servicios durante la fabricación y construcción, así como durante el mantenimiento de componentes o equipos industriales que ya están en servicio.`,
+    text: `EPC INGENIERIA brinda servicios durante la fabricación y construcción, así como durante el mantenimiento de componentes o equipos industriales que ya están en servicio.`,
     url: `${RouteLaboral}/servicio-de-ensayos-no-destructivos`,
   },
 
   {
     title: "ALINEAMIENTO LASER DE EJES",
     img: img07,
-    text:
-      `El mejor sistema de alineación de ejes acoplados en la actualidad es el basado en tecnologia óptica-láser, por ofrecer una gran superioridad técnica en todos los órdenes frente al tradicional mecánico de relojes comparadores.`,
+    text: `El mejor sistema de alineación de ejes acoplados en la actualidad es el basado en tecnologia óptica-láser, por ofrecer una gran superioridad técnica en todos los órdenes frente al tradicional mecánico de relojes comparadores.`,
     url: `${RouteLaboral}/servicio-de-alineamiento-de-laser-de-ejes`,
+  },
+  {
+    title: "CONSTRUCCIÓN DE PLANTAS FOTOVOLTAICAS",
+    img: img08,
+    text: `EPC ENERGIA, en su especialidad de servicios de energía solar y almacenamiento de energía, ayuda a sus clientes, especialmente a las empresas de Generación y Construcción (EPC), a garantizar la construcción, el mantenimiento y operación de su planta fotovoltaica cumpliendo con los más altos estándares de calidad.`,
+    url: `${RouteLaboral}/construccion-y-operacion-de-plantas-solares-fotovoltaicas`,
   },
   // {
   //   title: "GESTIÓN INTEGRAL DE CAMPAMENTOS",
@@ -78,27 +85,27 @@ export const dataLaboral = [
   //   text:"Gestión integral de campamentos (incluye todos los servicios, de limpieza, lavandería, catering, servicios médicos, transporte y mantenimiento)",
   //   url:`${RouteLaboral}/gestion-integral-de-campamentos`
   // }
-]
+];
 export const dataArea = [
   { title: "Ingenieria", url: RouteIngenieria, data: dataIngenieria },
   { title: "Servicios", url: RouteLaboral, data: dataLaboral },
-]
-export let dataCategoryProyect = []
+];
+export let dataCategoryProyect = [];
 // personalizado un link
-dataCategoryProyect.push({ title: "Todos", url: "/proyectos" })
+dataCategoryProyect.push({ title: "Todos", url: "/proyectos" });
 // obtiene la taxonomia de categorias de proyectos
-const LlenadoCategory = dataOrigin => {
-  dataOrigin.forEach(data => {
-    let urlProcesado = data.url.split("/")
+const LlenadoCategory = (dataOrigin) => {
+  dataOrigin.forEach((data) => {
+    let urlProcesado = data.url.split("/");
     //para coger el ultimo string despues del slash=> urlProcesado[urlProcesado.length-1]
     let dataProcesada = {
       title: data.title,
       url: `${RootProyecto}/${urlProcesado[urlProcesado.length - 1]}`,
-    }
-    dataCategoryProyect.push(dataProcesada)
-    return dataProcesada
-  })
-}
-LlenadoCategory(dataIngenieria)
-LlenadoCategory(dataLaboral)
+    };
+    dataCategoryProyect.push(dataProcesada);
+    return dataProcesada;
+  });
+};
+LlenadoCategory(dataIngenieria);
+LlenadoCategory(dataLaboral);
 // console.log(dataCategoryProyect);

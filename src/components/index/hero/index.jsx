@@ -1,5 +1,5 @@
-import React from "react"
-import HeroSlider, { Slide, Nav, OverlayContainer } from "hero-slider"
+import React from "react";
+import HeroSlider, { Slide, Nav, OverlayContainer } from "hero-slider";
 import {
   Wrapper,
   HeroDiv,
@@ -7,13 +7,13 @@ import {
   HeroTitle,
   Buttons,
   ButtonContacto,
-} from "./style"
-import Heroimg01 from "../../../assets/images/HeroIndex.jpg"
-import Heroimg02 from "../../../assets/images/HeroIndex2.jpg"
+} from "./style";
+import Heroimg01 from "../../../assets/images/HeroIndex.jpg";
+import Heroimg02 from "../../../assets/images/HeroIndex2.jpg";
 
 const Hero = () => {
-  const nextSlideHandler = React.useRef()
-  const previousSlideHandler = React.useRef()
+  const nextSlideHandler = React.useRef();
+  const previousSlideHandler = React.useRef();
   return (
     <Wrapper>
       <HeroSlider
@@ -74,10 +74,11 @@ const Hero = () => {
             <HeroText>INGENIERIA DE CALIDAD</HeroText>
             <HeroTitle>QUIENES SOMOS</HeroTitle>
             <HeroText>
-              Somos un grupo empresarial dedicado a la fabricación de
-              estructuras metálicas, reparación de componentes, servicios de
-              soldadura especializada, outsourcing de procesos y servicios en
-              los sectores de minería, industria, energías renovables y petróleo
+              Somos un grupo empresarial suministrando servicios en los sectores
+              de minería, industria y energías renovables: como ingeniería,
+              servicio de NDT, fabricación de estructuras metálicas, overhaul de
+              dipper de pala eléctrica y tolvas de camiones mineros,
+              construcción y mantenimiento de plantas solares fotovoltaicos.
             </HeroText>
             <ButtonContacto>
               <a
@@ -103,10 +104,11 @@ const Hero = () => {
             <HeroText>INGENIERIA DE CALIDAD</HeroText>
             <HeroTitle>QUIENES SOMOS</HeroTitle>
             <HeroText>
-            Somos un grupo empresarial dedicado a la fabricación de
-              estructuras metálicas, reparación de componentes, servicios de
-              soldadura especializada, outsourcing de procesos y servicios en
-              los sectores de minería, industria, energías renovables y petróleo
+              Somos un grupo empresarial suministrando servicios en los sectores
+              de minería, industria y energías renovables: como ingeniería,
+              servicio de NDT, fabricación de estructuras metálicas, overhaul de
+              dipper de pala eléctrica y tolvas de camiones mineros,
+              construcción y mantenimiento de plantas solares fotovoltaicos.
             </HeroText>
             <ButtonContacto>
               <a
@@ -182,7 +184,7 @@ const Hero = () => {
         <Nav />
       </HeroSlider>
     </Wrapper>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;
