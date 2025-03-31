@@ -14,5 +14,5 @@ export default [
     ]
   },
   { name: "proyectos", url: `/proyectos` },
-  { name: "clientes", url: `/clientes` },
+  { name: "clientes", url: `/clientes`, ssr: true },
 ]

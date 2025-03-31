@@ -9,6 +9,7 @@ import img06 from "../assets/images/proyectos/img06.png"
 import img07 from "../assets/images/proyectos/mina.jpg"
 import img08 from "../assets/images/proyectos/fotovoltaico.jpeg"
 import img09 from "../assets/images/proyectos/CerroVerde.jpeg"
+import img10 from "../assets/images/proyectos/image3.webp"
 export default [
   {
     title: "MANTENIMIENTO MINA DE CERRO VERDE",
@@ -240,7 +241,26 @@ export default [
       { img: img01, text: "lorem hdbcsvhybvsd gyhyq  678dgyuq dttgq gtdat " },
       { img: img01, text: "lorem hdbcsvhybvsd gyhyq  678dgyuq dttgq gtdat " },
     ],
-  }
+  },
+  {
+    title: "PROYECTO FOTOVOLTAICO - SUNNY - AREQUIPA",
+    img: img10,
+    text:
+      "Para este proyecto como sub contratista de ACCIONA estamos realizando trabajos de obra OBRAS CIVILES del parque fotovoltaico de 204 MWp",
+    url: `${RootProyecto}/proyecto-fotovoltaico-sunny-arequipa`,
+    comentario:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero numquam, quasi reiciendis accusantium illo id!",
+    autor: "Conocer más del Proyecto",
+    categoria: "",
+    caracteristicas: [
+    ],
+    item: [
+      { img: img01, text: "lorem hdbcsvhybvsd gyhyq  678dgyuq dttgq gtdat " },
+      { img: img01, text: "lorem hdbcsvhybvsd gyhyq  678dgyuq dttgq gtdat " },
+      { img: img01, text: "lorem hdbcsvhybvsd gyhyq  678dgyuq dttgq gtdat " },
+      { img: img01, text: "lorem hdbcsvhybvsd gyhyq  678dgyuq dttgq gtdat " },
+    ],
+  },
  
 ]
 export let dataTaxonomyProyect = dataCategoryProyect

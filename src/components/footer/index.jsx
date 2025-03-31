@@ -78,13 +78,13 @@ const Pie = () => {
         <div className="container">
           <LogoEpc src={Logo}></LogoEpc>
           <Text>
-            &copy; Copyright 2021 / Hecho por
+            &copy; Copyright {new Date().getFullYear()} / Hecho por
             <a
               href="http://almaquinta.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              &nbsp; Alma Quinta
+              &nbsp;Alma Quinta
             </a>{" "}
             y Six Lab
           </Text>

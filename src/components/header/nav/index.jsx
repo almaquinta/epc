@@ -10,7 +10,8 @@ const Index = ({ open }) => {
         {Navigation.map((dtNavigate, Key) => {
           return (
             <li key={Key}>
-              <Link to={`${dtNavigate.url}`}>{dtNavigate.name}</Link>
+              <Link to={`${dtNavigate.url}`} noSSR>{dtNavigate.name}</Link>
+              {/* <Link to={`${dtNavigate.url}`} noSSR={`${dtNavigate?.ssr}`}>{dtNavigate.name}</Link> */}
               {dtNavigate.submenu ? (
                 <ul className='submenu'>
                   {dtNavigate.submenu.map((dt, key) => {

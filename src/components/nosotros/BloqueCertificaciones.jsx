@@ -19,8 +19,10 @@ const Item = styled.div`
     color: ${({ theme }) => theme.colors.azulOscuro};
   }
   img {
+    aspect-ratio: 4/3;
     width: 100%;
     height: auto;
+    object-fit: contain;
     margin: 0 auto;
   }
  

@@ -32,14 +32,14 @@ export const Item = styled.div`
     }
   }
   .react-fancybox .thumbnail img {
-    max-width: 100%;
+    max-width: 200px;
     background-color: ${({ theme }) => theme.colors.blanco};
     padding: 0.5rem;
   }
   &:nth-child(4n) {
     border-right: none;
   }
-  &:nth-last-of-type(1) {
+  &:nth-last-of-type(-n+1) {
     border-bottom: none;
   }
   @media (max-width: 920px) {
@@ -75,8 +75,8 @@ const clientes = () => {
           const { img } = data
           return (
             <Item key={key}>
-              <ReactFancyBox thumbnail={img} image={img} />
-              {/* <Img src={img} alt="imagen de cliente"></Img> */}
+              {/* <ReactFancyBox thumbnail={img} image={img} /> */}
+              <Img src={img} alt="imagen de cliente"></Img>
             </Item>
           )
         })}

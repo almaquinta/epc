@@ -45,8 +45,7 @@ const Historia = () => {
         <Info>
           <Text></Text>
           <p>
-            <b>ARQUITECTURA E INGENIERIA EN PROYECTOS SAC</b>, en adelante EPC
-            INGENIERIA es una empresa peruana:{" "}
+            <b>EPC INGENIERIA EN PROYECTOS SAC</b>, een adelante EPC INGENIERIA es una empresa peruana:{" "}
           </p>
           <List>
             <Item>
@@ -54,85 +53,71 @@ const Historia = () => {
                 iOutlineRight
                 className="icon-right"
               ></AiOutlineRight>
-              En el 2016 iniciamos operaciones con diseño y fabricación de
-              instalación de estructuras metálicas en el sector retail de la
-              ciudad Arequipa.
+              En el 2016 iniciamos operaciones con diseño y fabricación de instalación de estructuras metálicas en el sector retail de la ciudad Arequipa.
             </Item>
             <Item>
               <AiOutlineRight
                 iOutlineRight
                 className="icon-right"
               ></AiOutlineRight>
-              En el 2017 fue nuestro primer proyecto en el sector de energía,
-              Proyecto Fotovoltaico Rubi de 140 MW, ubicada en Moquegua.
+              En el 2017 fue nuestro primer proyecto en el sector de energía, Proyecto Fotovoltaico Rubi de 140 MW, ubicado en Moquegua.
             </Item>
             <Item>
               <AiOutlineRight
                 iOutlineRight
                 className="icon-right"
               ></AiOutlineRight>
-              En el 2019 iniciamos operaciones en el sector minería e industria,
-              participando en los proyectos de Marcobre en Ica, ampliación de
-              Aceros Arequipa.
+              En el 2019 iniciamos operaciones en el sector minería e industria, participando en los proyectos de Marcobre en Ica, ampliación de Aceros Arequipa.
             </Item>
             <Item>
               <AiOutlineRight
                 iOutlineRight
                 className="icon-right"
               ></AiOutlineRight>
-              En 2020 iniciamos el Proyecto Quellaveco. Uno de los yacimientos
-              de cobre más grandes del mundo.
-            </Item>
-            {/* <Item>
-              <AiOutlineRight
-                iOutlineRight
-                className="icon-right"
-              ></AiOutlineRight>
-              Este año es una gran satisfacción de ser proveedores de la gran minería, siendo actualmente proveedor de Sociedad Minera Cerro Verde y también hemos sido certificados por la norma ISO 9001-2015
-            </Item> */}
-            <Item>
-              <AiOutlineRight
-                iOutlineRight
-                className="icon-right"
-              ></AiOutlineRight>
-              El 2021 es un año de gran satisfacción de ser proveedores de la
-              gran minería, siendo actualmente proveedor de Sociedad Minera
-              Cerro Verde.
-            </Item>
-            {/* <Item>
-              <AiOutlineRight
-                iOutlineRight
-                className="icon-right"
-              ></AiOutlineRight>
-              Este año es una gran satisfacción de ser proveedores de la gran minería, siendo actualmente proveedor de Sociedad Minera Cerro Verde, Compañia Minera Antapaccay S.A., Las Bambas y Southern Perú,
-              y también hemos sido certificados por la norma ISO 9001-2015 y Homologación de Proveedores por SGS.
-            </Item> */}
-            <Item>
-              <AiOutlineRight
-                iOutlineRight
-                className="icon-right"
-              ></AiOutlineRight>
-              El año 2022 iniciamos la construcción de la planta spñar
-              fotovoltaico Clemsi - Moquegua, de 122,59 MWp.
+              En 2020 iniciamos el Proyecto Quellaveco. Uno de los yacimientos de cobre más grandes del mundo.
             </Item>
             <Item>
               <AiOutlineRight
                 iOutlineRight
                 className="icon-right"
               ></AiOutlineRight>
-              Actualmente estamos certificados por las normas ISO 9001, ISO 14001
-              e ISO 45001 y Homologación de Proveedores por SGS.
+              El 2021 es un año de gran satisfacción de ser proveedores de la gran minería, siendo actualmente proveedor de Sociedad Minera Cerro Verde.
             </Item>
-            {/* <Item>
+            <Item>
               <AiOutlineRight
                 iOutlineRight
                 className="icon-right"
               ></AiOutlineRight>
-             Somos un grupo empresarial dedicado a la fabricación de
-              estructuras metálicas, reparación de componentes, servicios de
-              soldadura especializada, outsourcing de procesos y servicios en
-              los sectores de minería, industria, energías renovables y petróleo
-            </Item> */}
+              El año 2022 iniciamos la construcción de la planta solar fotovoltaico Clemsi - Moquegua de 122,59 MWp.
+            </Item>
+            <Item>
+              <AiOutlineRight
+                iOutlineRight
+                className="icon-right"
+              ></AiOutlineRight>
+              En el año 2024 somos proveedores de Southern Perú Copper Corporation, importante empresa minera en el sur del Perú.
+            </Item>
+            <Item>
+              <AiOutlineRight
+                iOutlineRight
+                className="icon-right"
+              ></AiOutlineRight>
+             También en el mismo año 2024 iniciamos lazos comerciales con la Minera Zafranal.
+            </Item>
+            <Item>
+              <AiOutlineRight
+                iOutlineRight
+                className="icon-right"
+              ></AiOutlineRight>
+             Este año estamos participando en la construcción de la planta fotovoltaica Sunny - La Joya Arequipa de 204 MW.
+            </Item>
+            <Item>
+              <AiOutlineRight
+                iOutlineRight
+                className="icon-right"
+              ></AiOutlineRight>
+             Actualmente estamos certificados por las normas ISO 9001, ISO 14001 e ISO 45001 y Homologación de Proveedores por SGS.
+            </Item>
           </List>
         </Info>
         <ImgWrapper>

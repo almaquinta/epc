@@ -11,7 +11,8 @@ export const Wrapper = styled.div`
 `
 export const Item = styled(Link)`
   background: rgba(2, 6, 44, 0.3);
-  background-position: bottom;
+  background-position: center;
+  background-size: cover;
   padding: 3rem ;
   position: relative;
   background-image: linear-gradient(rgba(2, 6, 44, 0.5), rgba(2, 6, 44, 0.3)),

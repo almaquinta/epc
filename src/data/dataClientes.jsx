@@ -1,50 +1,86 @@
-import img01 from "../assets/images/clientes/img01.png"
-import img02 from "../assets/images/clientes/img02.png"
-import img03 from "../assets/images/clientes/img03.png"
-import img04 from "../assets/images/clientes/img04.png"
-import img05 from "../assets/images/clientes/img06.png"
-import img06 from "../assets/images/clientes/img07.png"
-import img07 from "../assets/images/clientes/img08.png"
-import img08 from "../assets/images/clientes/img09.png"
-import img09 from "../assets/images/clientes/img10.jpeg"
-import img10 from "../assets/images/clientes/img11.jpg"
-import img11 from "../assets/images/clientes/img12.jpg"
-import img12 from "../assets/images/clientes/img13.jpg"
+import cerroVerde from "../assets/images/clientes/cerro-verde.png"
+import souththern from "../assets/images/clientes/souththern.jpg"
+import zafranal from "../assets/images/clientes/zafranal.png"
+import antapaccay from "../assets/images/clientes/antapaccay.jpg"
+import lasBambas from "../assets/images/clientes/las-bambas.jpg"
+import enel from "../assets/images/clientes/enel.png"
+import prodiel from "../assets/images/clientes/prodiel.png"
+import soltec from "../assets/images/clientes/soltec.png"
+import eiffage from "../assets/images/clientes/eiffage.jpg"
+import acciona from "../assets/images/clientes/acciona.gif"
+import statkraft from "../assets/images/clientes/statkraft.png"
+import aceros from "../assets/images/clientes/aceros.jpg"
+import calcesur from "../assets/images/clientes/calcesur.png"
+import yura from "../assets/images/clientes/yura.png"
+import enaex from "../assets/images/clientes/enaex.png"
+import cumbra from "../assets/images/clientes/cumbra.png"
+import ossa from "../assets/images/clientes/ossa.png"
+import jjc from "../assets/images/clientes/jjc.png"
+import intelec from "../assets/images/clientes/intelec.png"
+import stracon from "../assets/images/clientes/stracon.jpg"
+import carmen from "../assets/images/clientes/carmen.jpeg"
 export default [
   {
-    img: img01,
+    img: cerroVerde,
   },
   {
-    img: img02,
+    img: souththern,
   },
   {
-    img: img03,
+    img: zafranal,
   },
   {
-    img: img04,
+    img: antapaccay,
   },
   {
-    img: img05,
+    img: lasBambas,
   },
   {
-    img: img06,
+    img: enel,
   },
   {
-    img: img07,
+    img: prodiel,
   },
   {
-    img: img08,
+    img: soltec,
   },
   {
-    img: img09,
+    img: eiffage,
   },
   {
-    img: img10,
+    img: acciona,
   },
   {
-    img: img11,
+    img: statkraft,
   },
   {
-    img: img12,
+    img: aceros,
+  },
+  {
+    img: calcesur,
+  },
+  {
+    img: yura,
+  },
+  {
+    img: enaex,
+  },
+  {
+    img: cumbra,
+  },
+  {
+    img: ossa,
+  },
+  {
+    img: jjc,
+  },
+  {
+    img: intelec,
+  },
+  {
+    img: stracon,
+  },
+  {
+    img: carmen,
   },
 ]

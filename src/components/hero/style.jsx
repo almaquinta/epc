@@ -7,7 +7,7 @@ export const HeroContain = styled.div`
   align-items: center;
   background-repeat:no-repeat;
   background-size:cover;
-  background-position: bottom;
+  background-position: center;
   .container {
     width: 100%;
   }
