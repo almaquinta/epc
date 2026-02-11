@@ -6,7 +6,7 @@ import Data from "../../data/dataProject"
 import BlockData from "../../components/proyecto/ProyectDetails"
 import SEO from "../../components/Seo"
 const ingenieria = () => {
-  const indice = 2
+  const indice = 1
   return (
     <>
       <SEO

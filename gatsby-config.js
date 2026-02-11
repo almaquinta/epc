@@ -7,11 +7,11 @@
 module.exports = {
   siteMetadata: {
     title: "EPC - Ingenieria",
-    siteUrl: `https://epc.net.pe/`,
+    siteUrl: `https://epc.pe/`,
     titleTemplate: "EPC Ingenieria - %s",
     description:
       "Somos un grupo empresarial dedicados a la fabricación de estructuras metálicas, servicios de soldadura especializada y outsourcing de procesos y servicios en los sectores de minería, industria, energía, petróleo y retail",
-    url: "https://epc.net.pe/", // No trailing slash allowed!
+    url: "https://epc.pe/", // No trailing slash allowed!
     image: "epc.png", // Path to your image you placed in the 'static' folder
     twitterUsername: "@occlumency",
   },
